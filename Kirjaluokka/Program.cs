@@ -7,7 +7,7 @@ namespace Kirjaluokka
         static void Main(string[] args)
         {
             Console.WriteLine("Ohjelma antaa kirjojen tiedot ja vertailee hinnat\n");
-            Book myBook = new Book("ABC", "Toni K", "00155", 10);
+            Book myBook = new Book("ABC", "Toni K", "00155", 25);
             myBook.Printinfo();
 
             Book myBook2 = new Book("CBA", "Kari T", "00255", 25);

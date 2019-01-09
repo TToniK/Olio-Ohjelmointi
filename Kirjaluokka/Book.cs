@@ -32,6 +32,8 @@ namespace Kirjaluokka
         {
             if (this.price > book.price)
                 Console.WriteLine($"Kirja {this.title} on kalliimpi kuin {book.title}");
+            else if(this.price == book.price)
+                Console.WriteLine($"Kirja {book.title} on saman hintainen kuin {this.title}");
             else
                 Console.WriteLine($"Kirja {book.title} on kalliimpi kuin {this.title}");
         }
