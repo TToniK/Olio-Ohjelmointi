@@ -35,6 +35,7 @@ namespace Autoluokka
         {
             Console.WriteLine("Laita 0, jos et halua kiihdyttää, muulloin kiihdytä: ");
             this.speed += int.Parse(Console.ReadLine());
+          
         }
         public void Brake()
         {
