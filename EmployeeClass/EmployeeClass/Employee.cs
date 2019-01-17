@@ -44,8 +44,6 @@ namespace EmployeeClass
                 message = $"{employee.Name} tienaa enemmän kuin {this.Name}";
             }
             return message;
-                
-            
         }
         public string PrintEmployeeInfo()
         {
