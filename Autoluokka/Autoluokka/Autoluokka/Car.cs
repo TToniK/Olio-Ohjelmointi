@@ -8,11 +8,12 @@ namespace Autoluokka
     {
         public string brand;
         public int speed;
-
+       
         public Car()
         {
             this.brand = "";
             this.speed = 0;
+           
         }
 
         public void AskData()
