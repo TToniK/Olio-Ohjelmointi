@@ -1,0 +1,11 @@
+C:\Users\karit\source\repos\Olio-Ohjelmointi\TicketPrice\TicketPrice\bin\Debug\netcoreapp2.1\TicketPrice.deps.json
+C:\Users\karit\source\repos\Olio-Ohjelmointi\TicketPrice\TicketPrice\bin\Debug\netcoreapp2.1\TicketPrice.runtimeconfig.json
+C:\Users\karit\source\repos\Olio-Ohjelmointi\TicketPrice\TicketPrice\bin\Debug\netcoreapp2.1\TicketPrice.runtimeconfig.dev.json
+C:\Users\karit\source\repos\Olio-Ohjelmointi\TicketPrice\TicketPrice\bin\Debug\netcoreapp2.1\TicketPrice.dll
+C:\Users\karit\source\repos\Olio-Ohjelmointi\TicketPrice\TicketPrice\bin\Debug\netcoreapp2.1\TicketPrice.pdb
+C:\Users\karit\source\repos\Olio-Ohjelmointi\TicketPrice\TicketPrice\obj\Debug\netcoreapp2.1\TicketPrice.csprojAssemblyReference.cache
+C:\Users\karit\source\repos\Olio-Ohjelmointi\TicketPrice\TicketPrice\obj\Debug\netcoreapp2.1\TicketPrice.csproj.CoreCompileInputs.cache
+C:\Users\karit\source\repos\Olio-Ohjelmointi\TicketPrice\TicketPrice\obj\Debug\netcoreapp2.1\TicketPrice.AssemblyInfoInputs.cache
+C:\Users\karit\source\repos\Olio-Ohjelmointi\TicketPrice\TicketPrice\obj\Debug\netcoreapp2.1\TicketPrice.AssemblyInfo.cs
+C:\Users\karit\source\repos\Olio-Ohjelmointi\TicketPrice\TicketPrice\obj\Debug\netcoreapp2.1\TicketPrice.dll
+C:\Users\karit\source\repos\Olio-Ohjelmointi\TicketPrice\TicketPrice\obj\Debug\netcoreapp2.1\TicketPrice.pdb
