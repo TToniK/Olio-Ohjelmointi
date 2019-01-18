@@ -21,6 +21,7 @@ namespace TicketPrice
             this.age = "";
             this.number = 0;
             
+
         }
 
         public void AskData()
