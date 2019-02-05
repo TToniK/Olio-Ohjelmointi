@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Globalization;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace Interface_practice
@@ -22,7 +21,22 @@ namespace Interface_practice
             foreach(Product p in productlist)
             {
                 Console.WriteLine(p.GetProduct());
-                Console.WriteLine(p.CalculateTotal());
+                Console.Write("Hinta yhteensä: ");
+                Console.Write(p.CalculateTotal());
+                Console.Write(" €");
+                Console.WriteLine("\n");
+            }
+            IList<Customer> customerlist = new List<Customer>()
+            {
+                new Customer("Matti", 1200),
+                new Customer("Sari", 900),
+                new Customer("Kalle", 5500)
+            };
+
+            foreach(Customer c in customerlist)
+            {
+                Console.WriteLine(c.GetCustomer());
+                Console.Write("Bonuksen määrä: "); Console.Write(c.GetBonus()); Console.Write("%");
                 Console.WriteLine("\n");
             }
             Console.ReadKey();

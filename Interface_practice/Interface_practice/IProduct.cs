@@ -7,7 +7,7 @@ namespace Interface_practice
     interface IProduct
     {
         object GetProduct();
-        string CalculateTotal();
+        double CalculateTotal();
     }
 
     class Product : IProduct
@@ -26,19 +26,15 @@ namespace Interface_practice
 
         public object GetProduct()
         {
-            return $"Tuote: {_name}, Hinta: {_price:c}, Määrä: {_ammount}";
+            return $"Tuote: {_name}\nHinta: {_price:c}\nMäärä: {_ammount} kpl";
         }
 
-        public string CalculateTotal()
+        public double CalculateTotal()
         {
             double Total = _price * _ammount;
-            return $"Tuotteiden hinta yhteensä = {Total:c}";
+            return Total;
         }
 
-        public override string ToString()
-        {
-            return base.ToString();
-            
-        }
+        
     }
 }
