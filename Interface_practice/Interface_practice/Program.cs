@@ -11,12 +11,12 @@ namespace Interface_practice
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             CultureInfo.CurrentCulture = new CultureInfo("fi-FI");
 
-            IList<Product> productlist = new List<Product>()
-            {
-                new Product("Omena", 0.50,3),
-                new Product("Banaani", 0.30, 5),
-                new Product("Päärynä", 0.70,7)
-            };
+            IList<Product> productlist = new List<Product>();
+
+            Product product1 = new Product("Omena", 0.50, 3);
+            Product product2 = new Product("Banaani", 0.30, 5);
+            Product product3 = new Product("Päärynä", 0.70, 7);
+            
 
             foreach(Product p in productlist)
             {
@@ -39,6 +39,7 @@ namespace Interface_practice
                 Console.Write("Bonuksen määrä: "); Console.Write(c.GetBonus()); Console.Write("%");
                 Console.WriteLine("\n");
             }
+
             Console.ReadKey();
 
         }

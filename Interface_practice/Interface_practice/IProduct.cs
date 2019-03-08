@@ -15,7 +15,8 @@ namespace Interface_practice
         readonly string _name = null;
         readonly double _price = 0;
         readonly int _ammount = 0;
-    
+        internal int ammount;
+        internal int price;
 
         public Product(string name, double price, int ammount)
         {

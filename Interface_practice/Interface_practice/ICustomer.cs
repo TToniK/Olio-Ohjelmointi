@@ -14,7 +14,8 @@ namespace Interface_practice
     {
         readonly string _name;
         readonly double _buyings;
-
+        internal double purchases;
+        internal object name;
 
         public Customer(string name, double buyings)
         {
